@@ -18,6 +18,7 @@ function oddOrEven(array) {
 
 //============================================================================
 /*
+Task:
 Given an array of integers your solution should find the smallest integer.
 
     For example:
@@ -34,6 +35,7 @@ class SmallestIntegerFinder {
 
 //=============================================================================
 /*
+Task:
 This code does not execute properly. Try to figure out why.
 function multiply(a, b){
   a * b
@@ -46,9 +48,25 @@ function multiply(a, b){
 //================================================================================
 
 /*
+Task:
 We need a function that can transform a number into a string.
 What ways of achieving this do you know?
  */
 function numberToString(num) {
     return String(num);
+}
+
+//==================================================================================
+
+/*
+Write a function that accepts two integers and returns the remainder of dividing the larger value by the smaller value.
+Division by zero should return NaN.
+ */
+function remainder(n, m){
+    // Divide the larger argument by the smaller argument and return the remainder
+    if (n > m) {
+        return (n % m);
+    } else {
+        return (m % n);
+    }
 }
