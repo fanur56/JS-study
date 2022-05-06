@@ -130,3 +130,14 @@ function removeChar(str){
 }
 
 //==================================================================================
+/*
+Task:
+Complete the solution so that it reverses the string passed into it.
+ */
+function solution(str){
+    let splitStr = str.split("");
+    let reverseArr = splitStr.reverse();
+    return reverseArr.join("");
+}
+
+//==================================================================================
