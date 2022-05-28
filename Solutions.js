@@ -120,54 +120,13 @@ function opposite(number) {
     return -number;
 }
 
-//=================================================================================
+//==================================================================================
 /*
 Task:
 It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
  */
 function removeChar(str){
     return str.substring(1, str.length-1);
-}
+};
 
-//==================================================================================
-/*
-Task:
-Complete the solution so that it reverses the string passed into it.
- */
-function solution(str){
-    let splitStr = str.split("");
-    let reverseArr = splitStr.reverse();
-    return reverseArr.join("");
-}
-
-//==================================================================================
-/*
-Task:
-Write a function called repeatStr which repeats the given string string exactly n times.
- */
-function repeatStr (n, s) {
-    return s.repeat([n]);
-}
-
-//====================================================================================
-/*
-Task:
-Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
- */
-var summation = function (num) {
-    // Code here
-    var sum = 0;
-    for (i = 0; i <= num; i++) {
-        sum = sum + i;
-    }
-    return sum;
-}
 //=================================================================================
-/*
-Task:
-Simple, remove the spaces from the string, then return the resultant string.
- */
-function noSpace(x){
-    return x.replace(/\s+/g, '');
-}
-//==============================================================================
